@@ -58,7 +58,7 @@ function check(n) {
     let count = 0;
 
     for (let m = 2; m < Math.sqrt(n); m++) {
-        if (n % j == 1) {
+        if (n % m == 1) {
             count++;
         }
     }
