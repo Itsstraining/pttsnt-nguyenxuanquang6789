@@ -42,8 +42,12 @@ function main(input) {
         return 1;
     }
     for (i = 2; i <= n; i++) {
-        n = n / i;
-        i = 1;
+        if (n % i == 0) {
+            if (check(i) == true) {
+                n = n / i;
+                i = 1;
+            }
+        }
     }
 }
 
