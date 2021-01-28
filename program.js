@@ -44,11 +44,13 @@ function main(input) {
     for (i = 2; i <= n; i++) {
         if (n % i == 0) {
             if (check(i) == true) {
+                arr.push(i);
                 n = n / i;
                 i = 1;
             }
         }
     }
+    console.log(arr.join(' '))
 }
 
 function check(n) {
