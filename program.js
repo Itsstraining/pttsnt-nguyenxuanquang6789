@@ -41,7 +41,10 @@ function main(input) {
         console.log(n);
         return 1;
     }
-
+    for (i = 2; i <= n; i++) {
+        n = n / i;
+        i = 1;
+    }
 }
 
 function check(n) {
