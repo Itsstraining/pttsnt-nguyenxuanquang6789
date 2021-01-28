@@ -37,6 +37,15 @@ function main(input) {
         return 1;
     }
 
+    if (check(n) == false) {
+        console.log(n);
+        return 1;
+    }
+
+}
+
+function check(n) {
+    let coutn = 0;
 
 }
 
