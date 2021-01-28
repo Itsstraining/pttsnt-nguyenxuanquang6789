@@ -58,11 +58,11 @@ function check(n) {
     let count = 0;
 
     for (let m = 2; m < Math.sqrt(n); m++) {
-        {
+        if (n % j == 1) {
             count++;
         }
-        return true;
     }
+    return true;
 }
 
 module.exports = main;
