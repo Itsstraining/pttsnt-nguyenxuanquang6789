@@ -41,6 +41,7 @@ function main(input) {
         console.log(n);
         return 1;
     }
+
     for (i = 2; i <= n; i++) {
         if (n % i == 0) {
             if (check(i) == true) {
@@ -56,6 +57,9 @@ function main(input) {
 function check(n) {
     let count = 0;
 
+    for (let m = 2; m < Math.sqrt(n); m++) {
+        return true;
+    }
 }
 
 module.exports = main;
