@@ -45,7 +45,7 @@ function main(input) {
 }
 
 function check(n) {
-    let coutn = 0;
+    let count = 0;
 
 }
 
